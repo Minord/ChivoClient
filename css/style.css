@@ -1,0 +1,111 @@
+
+body{
+	font-family: "monospace";
+	color: #deeffc;
+	background-color: #101321;
+}
+
+
+h1 {
+	align-content: center;
+}
+
+#timer{
+	color: #879dbc;
+	display: block;
+}
+
+button{
+	border: none;
+  	padding: 20px 40px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "monospace";
+	color: #101321;
+}
+#update-price {
+	padding: 3px 10px;
+	background-color: #101321;
+	border-width: 1px;
+	border-radius: 2px;
+	color: #deeffc;
+	font-size: 14px;
+	border-style: solid;
+}
+#update-price:hover {
+	background-color: #1b2242;	
+}
+
+#update-price:active {
+	background-color: #3d4982;
+}
+
+.sellon{
+	padding: 8px 40px;
+	background-color: #101321;
+	border-width: 2px;
+	border-style: solid;
+	color: #deeffc;
+}
+
+.sellon:hover{
+	background-color: #1b2242;
+}
+
+.sellon:active{
+	background-color: #3d4982;
+}
+
+.sellon:disabled,
+.sellon[disabled]{
+  color: #2b363f;
+  pointer-events:none;
+}
+
+button.btc {
+	background-color: #fcf937;
+}
+
+button.btc:hover {
+	background-color: #fcfa8a;
+}
+
+button.btc:active{
+	background-color: #ffffff;
+}
+
+button.btc:disabled,
+button.btc[disabled]{
+  background-color: #c4c271;
+  pointer-events:none;
+}
+
+
+button.usd {
+	background-color:  #02c941;
+}
+
+button.usd:hover {
+	background-color: #41dd25;
+}
+
+
+button.usd:active{
+	background-color: #8afc76;
+}
+
+button.usd:disabled,
+button.usd[disabled]{
+  background-color: #427050;
+  pointer-events:none;
+}
+
+
+content{
+	text-align:center; 
+}
+
+

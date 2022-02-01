@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+	<html>
+	<head>
+		<title>Control Panel</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+	<body>
+		<content>
+			<h1>Control Panel</h1>
+			<h2>Balance</h2>
+
+			<p> USD : <b id="usd-label">0.00</b>,    
+				BTC : <b id="btc-label">0.00</b>
+				equiv : <b id ="btcuds-label">0.00</b>
+			</p>
+
+			<p>precio chivo : <b id ="chivo-price">0.00</b> <button id="update-price" onclick="updateChivoPriceButton()">actualizar</button></p>
+			<div>
+				<button class="usd"
+	                type="button"
+	                onclick="buyUSDbutton()">
+		    	Buy USD
+				</button>
+				<button class="btc"
+		        	    type="button"
+		        	    onclick="buyBTCbutton()">
+		    	Buy BTC
+				</button>
+				<b id="timer">0:00</b>
+			</div>
+			
+			<h2>SellOn</h2>
+			<div>
+				<p>Vender BTC cuando caiga abajo de :</p>
+				<input type="text" id="price-to-sell" onkeypress="return validateNumber(event);">
+				<button id ="set"class="sellon set" onclick="setSellOn()">Set</button>
+				<div>
+					<p>El precio esta puesto en <b id="price-to">0.00</b> USD</p>
+					<button id = "reset" class="sellon reset" onclick="resetSellOn()">Reset</button>
+				</div>
+			</div>
+		</content>
+
+		<script type="text/javascript" src="/js/code.js"></script>
+
+	</body>
+</html> 
